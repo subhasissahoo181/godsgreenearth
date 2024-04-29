@@ -35,21 +35,14 @@ export default function Home() {
       <TeamSection />
       <ContactSection />
       <BlogSection />
-<<<<<<< HEAD
+
       <FooterSection/>
         {/* // style="rv-20-footer"
         // logo="assets/img/rv-20-logo-light.png"
         // footerContactStyle="rv-20-footer__contact-card"
         // footerFormStyle="rv-20-footer-nwsltr__form" */}
       {/* /> */}
-=======
-      <FooterSection />
-{/*         style="rv-20-footer"
-        logo="assets/img/rv-20-logo-light.png"
-        footerContactStyle="rv-20-footer__contact-card"
-        footerFormStyle="rv-20-footer-nwsltr__form" */}
-{/*       /> */}
->>>>>>> e8b3c600ad238e6f5485f10167e94680eb8b7cf7
+
       {/* Modals */}
       <SearchFormModal />
       <VideoModal videoUrl="https://www.youtube.com/embed/b-5E5suKIAY?si=KAbRHsNOuo4JeZiV" />
