@@ -1,4 +1,5 @@
 "use client";
+
 import { speakersData } from "@/data/Data";
 import React, { useEffect, useRef } from "react";
 import { Autoplay, Navigation } from "swiper/modules";
@@ -108,12 +109,12 @@ const SpeakerSection = () => {
               {speakersData.map((item, index) => (
                 <SwiperSlide key={item.id}>
                   <div className="rv-1-speaker">
-                    <video
+                    {/* <video
                       src={item.videoSrc}
                       loop
-                      muted={true}
-                      ref={(el) => (videoRefs.current[index] = el)}
-                    ></video>
+                      muted={true} 
+                      ref ={(el) => (videoRefs.current[index] = el)}
+                    ></video> */}
                     <div className="rv-1-speaker__txt">
                       <h6 className="rv-1-speaker__role">{item.role}</h6>
                       <h4 className="rv-1-speaker__name">{item.name}</h4>
