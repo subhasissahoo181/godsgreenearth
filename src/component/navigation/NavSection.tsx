@@ -30,7 +30,7 @@ const NavSection = ({ style }: Props) => {
   return (
     <div className={`rv-1-header__nav ${style}`}>
       <ul className="justify-content-center">
-        <li className={dropdown.home ? "rv-dropdown-active" : ""}>
+        {/* <li className={dropdown.home ? "rv-dropdown-active" : ""}>
           <a role="button" onClick={() => handleToggleDropdown("home")}>
             Home
           </a>
@@ -46,13 +46,16 @@ const NavSection = ({ style }: Props) => {
               <Link href="/home-3">ECO</Link>
             </li>
           </ul>
+        </li> */}
+         <li>
+          <Link href="/">Home</Link>
         </li>
 
         <li>
           <Link href="/about">About</Link>
         </li>
 
-        <li className={dropdown.pages ? "rv-dropdown-active" : ""}>
+        {/* <li className={dropdown.pages ? "rv-dropdown-active" : ""}>
           <a role="button" onClick={() => handleToggleDropdown("pages")}>
             Pages
           </a>
@@ -90,9 +93,9 @@ const NavSection = ({ style }: Props) => {
               <Link href="/checkout">Checkout</Link>
             </li>
           </ul>
-        </li>
+        </li> */}
 
-        <li className={dropdown.shop ? "rv-dropdown-active" : ""}>
+        {/* <li className={dropdown.shop ? "rv-dropdown-active" : ""}>
           <a role="button" onClick={() => handleToggleDropdown("shop")}>
             Shop
           </a>
@@ -107,7 +110,7 @@ const NavSection = ({ style }: Props) => {
               <Link href="/shop/herbal-hair-oil">Product Details</Link>
             </li>
           </ul>
-        </li>
+        </li> */}
 
         <li className={dropdown.blog ? "rv-dropdown-active" : ""}>
           <a role="button" onClick={() => handleToggleDropdown("blog")}>
@@ -123,6 +126,10 @@ const NavSection = ({ style }: Props) => {
               </Link>
             </li>
           </ul>
+        </li>
+
+        <li>
+          <Link href="/">FAQ</Link>
         </li>
 
         <li>

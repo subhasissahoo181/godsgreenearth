@@ -3,7 +3,7 @@ import BannerSection from "@/component/banner/BannerSection3";
 import BlogSection from "@/component/blog/BlogSection3";
 import ContactSection from "@/component/contact/ContactSection";
 import FooterSection from "@/component/footer/FooterSection3";
-import HeaderSection from "@/component/header/HeaderSection3";
+import HeaderSection from "@/component/header/HeaderSection4";
 import SearchFormModal from "@/component/modal/SearchFormModal";
 import VideoModal from "@/component/modal/VideoModal";
 // import PortfolioSection from "@/component/portfolio/PortfolioSection";
